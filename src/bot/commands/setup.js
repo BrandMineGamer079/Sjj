@@ -35,9 +35,9 @@ module.exports = {
             message.react('887650847327158343');
             message.channel.send(`Success!`);
             let btn = new MessageButton()
-                .setStyle("red")
-                .setLabel("Support")
-                .setEmoji('850829758912528435')
+                .setStyle("")
+                .setLabel("General")
+                .setEmoji('🎫')
                 .setID("createTicket")
                 let btn2 = new MessageButton()
                 .setStyle("blurple")
